@@ -1,0 +1,48 @@
+name: clinic_admin
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.3.4 <4.0.0"
+
+dependencies:
+  dio: ^5.4.3+1
+  equatable: ^2.0.5
+  shared_preferences: ^2.2.3
+  flutter:
+    sdk: flutter
+  tot_atomic_design:
+    git:
+      url: https://github.com/TOTPLATFORM/flutter-atoms.git
+      path: packages/tot_atomic_design
+      ref: dev
+  flutter_bloc: ^8.1.5
+  freezed_annotation: ^2.4.1
+  json_annotation: ^4.9.0
+  bloc: ^8.1.4
+  go_router: ^14.0.1
+  dartz: ^0.10.1
+  #DI
+  get_it: ^7.6.7
+  intl: ^0.18.1
+  top_snackbar_flutter: ^3.1.0
+  nested: ^1.0.0
+  bloc_concurrency: ^0.2.5
+  clinic_package:
+    git:
+      url: https://github.com/Mo1hamedSabry-tot/clinic_package.git
+      ref: main  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.5
+  freezed: ^2.5.2
+  json_serializable: ^6.7.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
